@@ -8,16 +8,18 @@ const Navbar = () => {
 
   return (
     <div className='w-full h-[80px] bg-white border-b'>
-        <div className='md:max-w-[1480px] max-w-[600px] m-auto w-full h-full flex justify-between items-center md:px-0 px-4'>
+        <div className='md:max-w-[1080px] max-w-[600px] m-auto w-full h-full flex justify-between items-center md:px-0 px-4'>
             
-            <img src={logo} className="h-[25px]" />
+            {/* <img src={logo} className="h-[25px]" /> */}
+
+            <h1 className="Logo font-bold text-5xl tracking-tighter">Med<span className='text-[#20B486]'>Track</span> </h1>
             
             <div className='hidden md:flex items-center '>
                 <ul className='flex gap-4'>
                     <li>Home</li>
-                    <li>About</li>
+                    <li>Inventory</li>
+                    <li>Categories</li>
                     <li>Support</li>
-                    <li>Platform</li>
                     <li>Pricing</li>
                 </ul>
             </div>
@@ -47,12 +49,12 @@ const Navbar = () => {
                     <li className='p-4 hover:bg-gray-100'>Support</li>
                     <li className='p-4 hover:bg-gray-100'>Platform</li>
                     <li className='p-4 hover:bg-gray-100'>Pricing</li>
-                    <div className='flex flex-col my-4 gap-4'>
+                    <div className='flex flex-col my-4 gap-2'>
                         <button className='border border-[20B486] flex justify-center items-center  bg-transparent  px-6 gap-2 py-4'>
                          <img src={lock} />
                          Login
                         </button>
-                        <button className='px-8 py-5 rounded-md bg-[#20B486] text-white font-bold'>Sign Up For Free</button>
+                        <button className='px-4 py-2 rounded-md bg-[#20B486] text-white font-bold'>Sign Up For Free</button>
                     </div>
             </ul>
         </div>

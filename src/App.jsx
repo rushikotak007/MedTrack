@@ -8,11 +8,11 @@ const App = () => {
       <Navbar />
       <Hero />
       <Companies/>
-      <Courses />
-      <Achievement />
+      {/* <Courses /> */}
+      {/* <Achievement />
       <Categories />
       <Feedback />
-      <CTA />
+      <CTA /> */}
       <Footer />
     </div>
   )
